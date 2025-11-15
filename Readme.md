@@ -6,7 +6,7 @@ This project implements a simple RAG (Retrieval-Augmented Generation) pipeline t
 
 ---
 
-## 🚀 Features
+## Features
 - Loads `speech.txt`
 - Splits text into chunks
 - Creates embeddings using `all-MiniLM-L6-v2`
@@ -17,7 +17,7 @@ This project implements a simple RAG (Retrieval-Augmented Generation) pipeline t
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the repository
 ```bash
@@ -34,22 +34,22 @@ venv\Scripts\activate        # Windows
 ```
 pip install -r requirements.txt
 ```
-Setup Ollama + Mistral
+## Setup Ollama + Mistral
 
-Install Ollama:
+### Install Ollama:
 ```
 curl -fsSL https://ollama.ai/install.sh | sh
 ```
-Pull Mistral 7B:
+### Pull Mistral 7B:
 ```
 ollama pull mistral
 
 ```
-Ensure Ollama is running in the background:
+### Ensure Ollama is running in the background:
 ```
 ollama serve
 ```
-Run the Project
+## Run the Project
 ```
 python main.py
 ```
