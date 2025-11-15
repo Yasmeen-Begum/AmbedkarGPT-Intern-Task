@@ -23,4 +23,34 @@ This project implements a simple RAG (Retrieval-Augmented Generation) pipeline t
 ```bash
 git clone https://github.com/<your-username>/AmbedkarGPT-Intern-Task
 cd AmbedkarGPT-Intern-Task
+```
+### 2. Create a virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate     # Linux/Mac
+venv\Scripts\activate        # Windows
+```
+### 3. Install dependencies
+```
+pip install -r requirements.txt
+```
+Setup Ollama + Mistral
+
+Install Ollama:
+```
+curl -fsSL https://ollama.ai/install.sh | sh
+```
+Pull Mistral 7B:
+```
+ollama pull mistral
+
+```
+Ensure Ollama is running in the background:
+```
+ollama serve
+```
+Run the Project
+```
+python main.py
+```
 
