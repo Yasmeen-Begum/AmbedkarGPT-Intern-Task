@@ -21,7 +21,7 @@ This project implements a simple RAG (Retrieval-Augmented Generation) pipeline t
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/AmbedkarGPT-Intern-Task
+git clone https://github.com/Yasmeen-Begum/AmbedkarGPT-Intern-Task
 cd AmbedkarGPT-Intern-Task
 ```
 ### 2. Create a virtual environment
